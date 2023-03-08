@@ -32,7 +32,11 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4em;
+  line-height: 1.1;
+}
+h2{
+  font-size: 1.5em;
   line-height: 1.1;
 }
 @media screen and (max-width: 480px) {
@@ -46,6 +50,9 @@ h1 {
     font-size: 0.5em;
     padding: 0.4em 1em;
   }
+  p{
+    font-size: 0.3em;
+  }
 }
 
 button {
@@ -58,6 +65,9 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+p{
+  font-size: 2em;
 }
 button:hover {
   border-color: #646cff;
